@@ -1,0 +1,7 @@
+F:\MERN\C#\C-Sharp-Bootcamp\LearningC#\LearningC#\bin\Debug\LearningC#.exe.config
+F:\MERN\C#\C-Sharp-Bootcamp\LearningC#\LearningC#\bin\Debug\LearningC#.exe
+F:\MERN\C#\C-Sharp-Bootcamp\LearningC#\LearningC#\bin\Debug\LearningC#.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\LearningC#\LearningC#\obj\Debug\LearningDSA.csproj.AssemblyReference.cache
+F:\MERN\C#\C-Sharp-Bootcamp\LearningC#\LearningC#\obj\Debug\LearningDSA.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\LearningC#\LearningC#\obj\Debug\LearningC#.exe
+F:\MERN\C#\C-Sharp-Bootcamp\LearningC#\LearningC#\obj\Debug\LearningC#.pdb

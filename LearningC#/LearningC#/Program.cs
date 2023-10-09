@@ -12,7 +12,7 @@ namespace LearningC_
         static void Main(string[] args)
         {
            MyCustomStack.MyStack();
-           Console.ReadLine();
+           Console.ReadKey();
         }
     }
 }

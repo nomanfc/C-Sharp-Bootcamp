@@ -17,7 +17,7 @@ namespace LearningC_
             var poppedValue = myStack.Pop();
             Console.WriteLine($"Popped Element ==> {poppedValue}");
 
-            var value = myStack.Peek();
+            var value = myStack.Peek(); 
             Console.WriteLine($"Now Top Element is ==> {value}");
 
             Console.WriteLine($"\nRemaining Elements in the Stack: ");

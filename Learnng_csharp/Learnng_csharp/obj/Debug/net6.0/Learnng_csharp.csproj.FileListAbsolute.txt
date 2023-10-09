@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\bin\Debug\net6.0\Learnng_csharp.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\bin\Debug\net6.0\Learnng_csharp.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\bin\Debug\net6.0\Learnng_csharp.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\bin\Debug\net6.0\Learnng_csharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\bin\Debug\net6.0\Learnng_csharp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\Learnng_csharp.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\Learnng_csharp.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\Learnng_csharp.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\Learnng_csharp.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\Learnng_csharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\refint\Learnng_csharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\Learnng_csharp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\Learnng_csharp.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learnng_csharp\Learnng_csharp\obj\Debug\net6.0\ref\Learnng_csharp.dll
