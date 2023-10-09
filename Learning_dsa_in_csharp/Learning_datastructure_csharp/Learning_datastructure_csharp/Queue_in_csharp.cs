@@ -51,12 +51,18 @@ namespace Learning_datastructure_csharp
             bool isSearchItemFound = myQueue.Contains(searchIeam);
             if (isSearchItemFound)
             {
-                Console.WriteLine($"{searchIeam} is found in Queue.")
+                Console.WriteLine($"{searchIeam} is found in Queue.");
             }
             else
             {
-                Console.WriteLine($"{searchIeam} is not found in Queue.")
+                Console.WriteLine($"{searchIeam} is not found in Queue.");
             }
+
+            //clear operation
+            myQueue.Clear();
+
+            //Count Items in Queue
+            Console.WriteLine($"Queue is cleared! Total Items Now: {myQueue.Count}");
 
 
         }
