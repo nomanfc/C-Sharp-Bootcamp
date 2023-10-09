@@ -10,7 +10,7 @@ namespace Learning_datastructure_csharp
     {
         public static void MyCustomStack()
         {
-            Stack myStack = new Stack();
+            Stack myStack = new();
 
             //push operation
             myStack.Push("Noman");
