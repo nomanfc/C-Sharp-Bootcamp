@@ -19,6 +19,8 @@ namespace ToDoList
             a = 350;
             Console.WriteLine(a);
 
+            Console.WriteLine(a + a + a);
+
         }
     }
 }
