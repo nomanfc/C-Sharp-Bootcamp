@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\bin\Debug\net6.0\Learning_datastructure_csharp.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\bin\Debug\net6.0\Learning_datastructure_csharp.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\bin\Debug\net6.0\Learning_datastructure_csharp.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\bin\Debug\net6.0\Learning_datastructure_csharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\bin\Debug\net6.0\Learning_datastructure_csharp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\Learning_datastructure_csharp.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\Learning_datastructure_csharp.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\Learning_datastructure_csharp.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\Learning_datastructure_csharp.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\Learning_datastructure_csharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\refint\Learning_datastructure_csharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\Learning_datastructure_csharp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\Learning_datastructure_csharp.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\Learning_datastructure_csharp\Learning_datastructure_csharp\obj\Debug\net6.0\ref\Learning_datastructure_csharp.dll
