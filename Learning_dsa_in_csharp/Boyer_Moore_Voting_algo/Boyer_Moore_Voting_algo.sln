@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boyer_Moore_Voting_algo", "Boyer_Moore_Voting_algo\Boyer_Moore_Voting_algo.csproj", "{D9769B3C-E948-4EF8-B9CA-F6B0D11E1BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9769B3C-E948-4EF8-B9CA-F6B0D11E1BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9769B3C-E948-4EF8-B9CA-F6B0D11E1BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9769B3C-E948-4EF8-B9CA-F6B0D11E1BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9769B3C-E948-4EF8-B9CA-F6B0D11E1BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C593B53-EB1A-4E86-B4BC-7703808D2998}
+	EndGlobalSection
+EndGlobal
