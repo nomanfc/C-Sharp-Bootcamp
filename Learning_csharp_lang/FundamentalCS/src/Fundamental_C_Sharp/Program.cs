@@ -12,3 +12,6 @@ Console.WriteLine("\n03. Methods Output: ");
 int a = 10, b = 20;
 Methods.VoidMethod("This is Void Method...!");
 Console.WriteLine($"Integer Method: Multplication of {a} and {b} is {Methods.IntMethod(10, 20)}");
+
+Console.WriteLine("\n04. Parsing String to Integer Output: ");
+//ParsingStringToInteger.ParseStringToInt();
