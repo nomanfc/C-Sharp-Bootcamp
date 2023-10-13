@@ -20,11 +20,11 @@ Console.WriteLine("[R]-REMINDER");
 Console.Write("\nEnter Options: ");
 string operation = Console.ReadLine();
 
-if (operation == "A" || operation == "a") Console.WriteLine("ANS: " + Addition(numberOne, numberTwo));
-else if (operation == "S" || operation == "s") Console.WriteLine("ANS: " + Subtraction(numberOne, numberTwo));
-else if (operation == "M" || operation == "m") Console.WriteLine("ANS: " + Multiplication(numberOne, numberTwo));
-else if (operation == "D" || operation == "d") Console.WriteLine("ANS: " + Division(numberOne, numberTwo));
-else if (operation == "R" || operation == "r") Console.WriteLine( "ANS: " + Modulo(numberOne, numberTwo));
+if (operation == "A" || operation == "a") Console.WriteLine($"{numberOne} + {numberTwo} = {Addition(numberOne, numberTwo)}");
+else if (operation == "S" || operation == "s") Console.WriteLine($"{numberOne} - {numberTwo} = {Subtraction(numberOne, numberTwo)}");
+else if (operation == "M" || operation == "m") Console.WriteLine($"{numberOne} * {numberTwo} = {Multiplication(numberOne, numberTwo)}");
+else if (operation == "D" || operation == "d") Console.WriteLine($"{numberOne} / {numberTwo} = {Division(numberOne, numberTwo)}");
+else if (operation == "R" || operation == "r") Console.WriteLine($"{numberOne} % {numberTwo} = {Modulo(numberOne, numberTwo)}");
 else InvalidOpearation();
 
 
