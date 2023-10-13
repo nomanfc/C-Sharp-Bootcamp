@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\bin\Debug\net6.0\Fundamental_C_Sharp.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\bin\Debug\net6.0\Fundamental_C_Sharp.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\bin\Debug\net6.0\Fundamental_C_Sharp.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\bin\Debug\net6.0\Fundamental_C_Sharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\bin\Debug\net6.0\Fundamental_C_Sharp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\Fundamental_C_Sharp.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\Fundamental_C_Sharp.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\Fundamental_C_Sharp.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\Fundamental_C_Sharp.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\Fundamental_C_Sharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\refint\Fundamental_C_Sharp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\Fundamental_C_Sharp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\Fundamental_C_Sharp.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_C_Sharp\obj\Debug\net6.0\ref\Fundamental_C_Sharp.dll
