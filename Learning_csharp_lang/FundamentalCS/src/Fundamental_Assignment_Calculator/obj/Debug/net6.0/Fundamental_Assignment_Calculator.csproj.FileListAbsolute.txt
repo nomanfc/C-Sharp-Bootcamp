@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\bin\Debug\net6.0\Fundamental_Assignment_Calculator.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\bin\Debug\net6.0\Fundamental_Assignment_Calculator.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\bin\Debug\net6.0\Fundamental_Assignment_Calculator.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\bin\Debug\net6.0\Fundamental_Assignment_Calculator.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\bin\Debug\net6.0\Fundamental_Assignment_Calculator.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\Fundamental_Assignment_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\Fundamental_Assignment_Calculator.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\Fundamental_Assignment_Calculator.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\Fundamental_Assignment_Calculator.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\Fundamental_Assignment_Calculator.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\refint\Fundamental_Assignment_Calculator.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\Fundamental_Assignment_Calculator.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\Fundamental_Assignment_Calculator.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\FundamentalCS\src\Fundamental_Assignment_Calculator\obj\Debug\net6.0\ref\Fundamental_Assignment_Calculator.dll

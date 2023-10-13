@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamental_C_Sharp", "Fundamental_C_Sharp\Fundamental_C_Sharp.csproj", "{CD5FF208-7D35-4EAD-A445-47F1EEFCFF15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamental_Assignment_Calculator", "Fundamental_Assignment_Calculator\Fundamental_Assignment_Calculator.csproj", "{1455E167-37F1-45F4-A9B5-A64125E7C310}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CD5FF208-7D35-4EAD-A445-47F1EEFCFF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD5FF208-7D35-4EAD-A445-47F1EEFCFF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD5FF208-7D35-4EAD-A445-47F1EEFCFF15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1455E167-37F1-45F4-A9B5-A64125E7C310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1455E167-37F1-45F4-A9B5-A64125E7C310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1455E167-37F1-45F4-A9B5-A64125E7C310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1455E167-37F1-45F4-A9B5-A64125E7C310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
