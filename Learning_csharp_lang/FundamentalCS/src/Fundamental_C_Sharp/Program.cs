@@ -36,7 +36,8 @@ int[] nums = { 1, 2, 3, 4, 5, 8, 4, 6, 2, 1 };
 Console.WriteLine("Array: [1, 2, 3, 4, 5, 8, 4, 6, 2, 1]");
 Arrays.ArraySum(nums);
 
-
+Console.WriteLine("\n10. Multi Dimentional Array Output: ");
+MultiDimentionalArray.TwoDArray();
 
 
 Console.WriteLine("\nPress Enter to exit");
