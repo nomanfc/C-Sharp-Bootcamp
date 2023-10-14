@@ -39,6 +39,9 @@ Arrays.ArraySum(nums);
 Console.WriteLine("\n10. Multi Dimentional Array Output: ");
 MultiDimentionalArray.TwoDArray();
 
+Console.WriteLine("\n11. For Each Loop Output: ");
+ForEachLoop.ForEach();
+
 
 Console.WriteLine("\nPress Enter to exit");
 Console.Read();
