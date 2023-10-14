@@ -16,41 +16,95 @@ Console.WriteLine("[M]-MULTIPLICATION");
 Console.WriteLine("[D]-DIVISION");
 Console.WriteLine("[R]-REMINDER");
 
-
-Console.Write("\nEnter Options: ");
+Console.Write("\nWhich Calculation you want to perform: ");
 string operation = Console.ReadLine();
+ChooseOperation(operation);
 
-if (EqualCaseInsensitive(operation, "A")) DisplayResult(numberOne, numberTwo, Addition(numberOne, numberTwo), "+") ;
-else if (EqualCaseInsensitive(operation, "S")) DisplayResult(numberOne, numberTwo, Subtraction(numberOne, numberTwo), "-");
-else if (EqualCaseInsensitive(operation, "M")) DisplayResult(numberOne, numberTwo, Multiplication(numberOne, numberTwo), "*");
-else if (EqualCaseInsensitive(operation, "D")) DisplayResult(numberOne, numberTwo, Division(numberOne, numberTwo), "/");
-else if (EqualCaseInsensitive(operation, "R")) DisplayResult(numberOne, numberTwo, Modulo(numberOne, numberTwo), "%");
-else InvalidOpearation();
+//if (EqualCaseInsensitive(operation, "A")) DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo,"+"), "+") ;
+//else if (EqualCaseInsensitive(operation, "S")) DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "-"), "-");
+//else if (EqualCaseInsensitive(operation, "M")) DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "**"), "*");
+//else if (EqualCaseInsensitive(operation, "D")) DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "/"), "/");
+//else if (EqualCaseInsensitive(operation, "R")) DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "%"), "%");
+//else InvalidOpearation();
 
-
-float Addition(float a, float b)
+void ChooseOperation(string opeartion)
 {
-    return a + b;
+    string op = opeartion.ToUpper();
+
+    switch (op)
+    {
+        case "A":
+            DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "+"), "+");
+            break;
+        case "S":
+            DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "-"), "-");
+            break;
+        case "M":
+            DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "*"), "*");
+            break;
+        case "D":
+            DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "/"), "/");
+            break;
+        case "R":
+            DisplayResult(numberOne, numberTwo, Calculation(numberOne, numberTwo, "%"), "%");
+            break;
+        default:
+            InvalidOpearation();
+            break;
+    }
 }
 
-float Subtraction(float a, float b)
-{
-    return a - b;
-}
 
-float Multiplication(float a, float b)
-{
-    return a * b;
-}
+//float Addition(float a, float b)
+//{
+//    return a + b;
+//}
 
-float Division(float a, float b)
-{
-    return a / b;
-}
+//float Subtraction(float a, float b)
+//{
+//    return a - b;
+//}
 
-float Modulo(float a, float b)
+//float Multiplication(float a, float b)
+//{
+//    return a * b;
+//}
+
+//float Division(float a, float b)
+//{
+//    return a / b;
+//}
+
+//float Modulo(float a, float b)
+//{
+//    return a % b;
+//}
+
+float Calculation (float a, float b, string @operator)
 {
-    return a % b;
+    float result = 0;
+
+    switch (@operator)
+    {
+        case "+":
+            result = a + b;
+            break;
+        case "-":
+            result = a - b;
+            break;
+        case "*":
+            result = a * b;
+            break;
+        case "/":
+            result = a / b;
+            break;
+        case "%":
+            result = a % b;
+            break;
+        default:
+            break;
+    }
+    return result;
 }
 
 void DisplayResult(float a, float b, float result, string @operator)
@@ -59,10 +113,10 @@ void DisplayResult(float a, float b, float result, string @operator)
     Console.WriteLine("\nPress Enter to exit");
 }
 
-bool EqualCaseInsensitive(string left, string right)
-{
-    return left.ToUpper() == right.ToUpper();
-}
+//bool EqualCaseInsensitive(string left, string right)
+//{
+//    return left.ToUpper() == right.ToUpper();
+//}
 
 void InvalidOpearation()
 {
