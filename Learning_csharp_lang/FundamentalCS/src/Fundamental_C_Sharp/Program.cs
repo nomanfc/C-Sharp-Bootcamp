@@ -24,6 +24,10 @@ Console.WriteLine("\n06. Switch Case Output (character): ");
 point = 10;
 Console.WriteLine($"Point {point} is Grade: {SwitchCaseStatement.SwitchCase(point)}");
 
+Console.WriteLine("\n07. While Loop Output: ");
+Console.Write($"It will print 0 to 9: ");
+WhileLoop.UsingWhile();
+
 
 
 Console.WriteLine("\nPress Enter to exit");
