@@ -3,6 +3,9 @@ using Fundamental_C_Sharp;
 
 Console.WriteLine("::::::::::::::::- FUNDAMENTALS -::::::::::::::::::::");
 
+Console.WriteLine("\n14. TryParse method Output: ");
+TryParseMethod.TryParseM();
+
 Console.WriteLine("\n13. Out Keyword Output: ");
 Console.WriteLine("\nArray : [10,20,30,40,5,-1,-50,-41,-40]");
 OutKeyword.Out();
