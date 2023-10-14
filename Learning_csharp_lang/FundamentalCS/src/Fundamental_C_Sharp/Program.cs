@@ -15,3 +15,7 @@ Console.WriteLine($"Integer Method: Multplication of {a} and {b} is {Methods.Int
 
 Console.WriteLine("\n04. Parsing String to Integer Output: ");
 ParsingStringToInteger.ParseStringToInt();
+
+
+Console.WriteLine("\nPress Enter to exit");
+Console.Read();
