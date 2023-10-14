@@ -28,6 +28,9 @@ Console.WriteLine("\n07. While Loop Output: ");
 Console.WriteLine($"It will print 0 to 9 and coresponding number of a: ");
 WhileLoop.UsingWhile();
 
+Console.WriteLine("\n08. Do While Loop Output: ");
+DoWhileLoop.DoWhile();
+
 
 
 Console.WriteLine("\nPress Enter to exit");
