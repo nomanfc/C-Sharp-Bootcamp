@@ -10,14 +10,16 @@ namespace Fundamental_C_Sharp
     {
         public static void UsingWhile()
         {
-            int number = 0;
+            int number = 1;
+            var str = "a";
 
-            while(number < 10)
+            while(number <= 9)
             {
                 Console.Write(number + " ");
                 number++;
+                Console.WriteLine(str);
+                str += "a";
             }
-
             Console.WriteLine("\nWhile Loop is Finished...!!");
         }
     }

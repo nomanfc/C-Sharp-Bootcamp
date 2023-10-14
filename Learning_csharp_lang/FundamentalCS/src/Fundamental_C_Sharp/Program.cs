@@ -25,7 +25,7 @@ point = 10;
 Console.WriteLine($"Point {point} is Grade: {SwitchCaseStatement.SwitchCase(point)}");
 
 Console.WriteLine("\n07. While Loop Output: ");
-Console.Write($"It will print 0 to 9: ");
+Console.WriteLine($"It will print 0 to 9 and coresponding number of a: ");
 WhileLoop.UsingWhile();
 
 
