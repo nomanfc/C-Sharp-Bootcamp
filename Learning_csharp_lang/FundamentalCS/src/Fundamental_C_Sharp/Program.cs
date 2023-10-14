@@ -31,6 +31,12 @@ WhileLoop.UsingWhile();
 Console.WriteLine("\n08. Do While Loop Output: ");
 DoWhileLoop.DoWhile();
 
+Console.WriteLine("\n09. Summation of an Array Output: ");
+int[] nums = { 1, 2, 3, 4, 5, 8, 4, 6, 2, 1 };
+Console.WriteLine("Array: [1, 2, 3, 4, 5, 8, 4, 6, 2, 1]");
+Arrays.ArraySum(nums);
+
+
 
 
 Console.WriteLine("\nPress Enter to exit");
