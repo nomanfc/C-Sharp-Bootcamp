@@ -16,9 +16,13 @@ Console.WriteLine($"Integer Method: Multplication of {a} and {b} is {Methods.Int
 Console.WriteLine("\n04. Parsing String to Integer Output: ");
 ParsingStringToInteger.ParseStringToInt();
 
-Console.WriteLine("\n05. Switch Case Output: ");
+Console.WriteLine("\n05. Switch Case Output (string): ");
 int point = 5;
-Console.WriteLine($"Point {point} is Grade {SwitchCaseStatement.SwitchCase(point)}");
+Console.WriteLine($"Point {point} is Grade: {SwitchCaseStatement.SwitchCase(point)}");
+
+Console.WriteLine("\n06. Switch Case Output (character): ");
+point = 10;
+Console.WriteLine($"Point {point} is Grade: {SwitchCaseStatement.SwitchCase(point)}");
 
 
 
