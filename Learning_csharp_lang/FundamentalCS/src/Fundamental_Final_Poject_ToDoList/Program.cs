@@ -47,8 +47,10 @@ void MainApp()
         case "C":
             ClearTodo();
             break;
+        case "E":
+            Exit();
+            break;
         default:
-            Console.WriteLine("Hi  ads");
             break;
     }
 }
@@ -175,7 +177,10 @@ void ClearTodo()
 }
 
 //Exit Method
-
+void Exit()
+{
+    Environment.Exit(0);
+}
 
 
 
