@@ -7,6 +7,7 @@ Console.WriteLine(" What do you want to do?\n");
 Console.WriteLine(" [S]ee all TODOs");
 Console.WriteLine(" [A]dd new TODO");
 Console.WriteLine(" [R]emove a TODO");
+Console.WriteLine(" [C]lear ToDo List");
 Console.WriteLine(" [E]xit");
 
 string chooseOption;
@@ -17,6 +18,7 @@ MainApp();
 
 //Methods here
 
+//Main Application
 void MainApp()
 {
     Console.Write("\n Choose an option: ");
@@ -24,7 +26,7 @@ void MainApp()
     varification = isInsertedOptionValid(chooseOption.ToUpper());
 
     CheckVerification();
-    Console.WriteLine("Main");
+    
     switch (chooseOption.ToUpper())
     {
         case "S":
@@ -63,9 +65,10 @@ bool isInsertedOptionValid(string option)
 //display todo
 void DisplayTodo()
 {
+    Console.WriteLine("\nToDo List:");
     if (todoList.Count == 0)
     {
-        Console.WriteLine("Todo List is empty");
+        Console.WriteLine("\nTodo List is empty\n");
     }
     else
     {
@@ -74,28 +77,31 @@ void DisplayTodo()
             Console.WriteLine($"{todoList.IndexOf(todo)+1}.{todo}");
         }
     }
+    MainApp();
 }
 
 //add item
 void AddItem()
 {
-    Console.WriteLine("Enter Description: ");
+    Console.Write("Enter Description: ");
     string item = Console.ReadLine();
 
     if (item.Length <= 0)
     {
-        Console.WriteLine("Item must not be null");
+        Console.WriteLine("\nItem must not be null\n");
+        AddItem();
     }
     else if(todoList.Contains(item))
     {
-        Console.WriteLine("Item already exist in the list.");
+        Console.WriteLine("\nItem already exist in the list.\n");
+        AddItem();
     }
     else
     {
         todoList.Add(item);
+        Console.WriteLine("Item has been added in the List");
+        MainApp();
     }
-
-    MainApp();
 }
 
 //check verification
