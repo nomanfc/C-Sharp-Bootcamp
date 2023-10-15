@@ -3,6 +3,7 @@
 Console.WriteLine(" ::::::::::::::::::::- ToDo List Application -::::::::::::::::::::::");
 
 Console.WriteLine("\n Hello, welcome to Todo Application..\n");
+
 Console.WriteLine(" What do you want to do?\n");
 Console.WriteLine(" [S]ee all TODOs");
 Console.WriteLine(" [A]dd new TODO");
@@ -21,7 +22,9 @@ MainApp();
 //Main Application
 void MainApp()
 {
-    Console.Write("\n Choose an option: ");
+
+
+    Console.Write("\nChoose an option: ");
     chooseOption = Console.ReadLine();
     varification = isInsertedOptionValid(chooseOption.ToUpper());
 
@@ -31,12 +34,16 @@ void MainApp()
     {
         case "S":
             DisplayTodo();
+            MainApp();
             break;
 
         case "A":
             AddItem();
             break;
-
+        case "R":
+            DisplayTodo();
+            RemoveTodoByIndex();
+            break;
         default:
             Console.WriteLine("Hi  ads");
             break;
@@ -62,6 +69,18 @@ bool isInsertedOptionValid(string option)
     }
 }
 
+//check verification
+void CheckVerification()
+{
+    while (!varification)
+    {
+        Console.Write("\n Invalid Option. Please Enter valid Option: ");
+        chooseOption = Console.ReadLine();
+        varification = isInsertedOptionValid(chooseOption);
+    }
+
+}
+
 //display todo
 void DisplayTodo()
 {
@@ -77,13 +96,12 @@ void DisplayTodo()
             Console.WriteLine($"{todoList.IndexOf(todo)+1}.{todo}");
         }
     }
-    MainApp();
 }
 
 //add item
 void AddItem()
 {
-    Console.Write("Enter Description: ");
+    Console.Write("\nEnter Description: ");
     string item = Console.ReadLine();
 
     if (item.Length <= 0)
@@ -99,22 +117,42 @@ void AddItem()
     else
     {
         todoList.Add(item);
-        Console.WriteLine("Item has been added in the List");
+        Console.WriteLine("\nItem has been added in the List");
+        DisplayTodo();
         MainApp();
     }
 }
 
-//check verification
-void CheckVerification()
+//remove a todo
+void RemoveTodoByIndex()
 {
-    while (!varification)
-    {
-        Console.Write("\n Invalid Option. Please Enter valid Option: ");
-        chooseOption = Console.ReadLine();
-        varification = isInsertedOptionValid(chooseOption);
-    }
+    Console.Write("\nEnter Index of Todo you want to remove: ");
+    var removeIndex = Console.ReadLine();
+    bool todoIndex = int.TryParse(removeIndex, out int result);
 
+    if (!todoIndex)
+    {
+        Console.WriteLine("\nInput value must be integer");
+        RemoveTodoByIndex();
+    }
+    else
+    {
+        int res = result - 1;
+
+        if(res < 0 || res > todoList.Count-1) {
+            Console.WriteLine("\nInvalid Index");
+            RemoveTodoByIndex();
+        }
+        else
+        {
+            todoList.RemoveAt(res);
+            Console.WriteLine("\nItem has been removed\n");
+            DisplayTodo();
+            MainApp();
+        }
+    }
 }
+
 
 
 
