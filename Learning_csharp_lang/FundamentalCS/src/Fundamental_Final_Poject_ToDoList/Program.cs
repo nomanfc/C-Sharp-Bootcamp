@@ -55,7 +55,7 @@ void MainApp()
     }
 }
 
-//checking choosed option is valid or not
+//Checking choosed option is valid or not
 bool isInsertedOptionValid(string option)
 {
     string op = option.ToUpper();
@@ -76,7 +76,7 @@ bool isInsertedOptionValid(string option)
     }
 }
 
-//check verification
+//Check verification
 void CheckVerification()
 {
     while (!varification)
@@ -88,7 +88,7 @@ void CheckVerification()
 
 }
 
-//display todo
+//Display todo
 void DisplayTodo()
 {
     Console.WriteLine("\nToDo List:");
@@ -105,7 +105,7 @@ void DisplayTodo()
     }
 }
 
-//add item
+//Add item
 void AddItem()
 {
     Console.Write("\nEnter Description: ");
@@ -130,7 +130,7 @@ void AddItem()
     }
 }
 
-//remove a todo
+//Remove a todo
 void RemoveTodoByIndex()
 {
     Console.Write("\nEnter Index of Todo you want to remove: ");
