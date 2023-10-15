@@ -44,6 +44,9 @@ void MainApp()
             DisplayTodo();
             RemoveTodoByIndex();
             break;
+        case "C":
+            ClearTodo();
+            break;
         default:
             Console.WriteLine("Hi  ads");
             break;
@@ -63,6 +66,8 @@ bool isInsertedOptionValid(string option)
         case "R":
             return true;
         case "E":
+            return true;
+        case "C":
             return true;
         default:
             return false;
@@ -153,7 +158,23 @@ void RemoveTodoByIndex()
     }
 }
 
+//Clear Todo List
+void ClearTodo()
+{
+    if(todoList.Count > 0)
+    {
+        todoList.Clear();
+        Console.WriteLine("\nToDo List has been cleared");
+        DisplayTodo();
+        MainApp();
+    }
+    else
+    {
+        Console.WriteLine("\nList is Empty!");
+    }
+}
 
+//Exit Method
 
 
 
