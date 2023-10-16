@@ -8,19 +8,22 @@ namespace Array
 {
     internal class InsertAtArrayEnd
     {
-        public static void Main(int[] array)
+        public static int Main(int[] array, int length, int value)
         {
-            int length = 0;
+            Console.WriteLine("\nInserting first five elements: \n");
 
-            Console.WriteLine("\nInserting first three elements: \n");
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 5; i++)
             {
                 array[length] = i;
                 length++;
             }
 
+            array[length] = value;
+            
             Utility.ArrayLength(array);
             Utility.DisplayArray(array);
+
+            return length;
         }
     }
 }
