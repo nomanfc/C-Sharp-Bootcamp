@@ -8,9 +8,19 @@ namespace Array
 {
     internal class InsertAtArrayStart
     {
-        public static void Main()
+        public static int Main(int[] array, int length, int value)
         {
+            for(int i = length; i >= 0; i--)
+            {
+                array[i+1] = array[i];
+            }
 
+            array[0] = value;
+            length++;
+
+            Utility.DisplayArray(array);
+
+            return length;
         }
     }
 }
