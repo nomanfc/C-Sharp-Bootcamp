@@ -13,42 +13,25 @@ namespace Array
             int[] array = new int[6];
             int length = 0;
 
-            for(int i = 0; i < 3; i++)
+            Console.WriteLine("\nInserting first three elements: \n");
+            for (int i = 0; i < 3; i++)
             {
                 array[length] = i;
                 length++;
             }
 
-            ArrayLength(array);
-            DisplayArray(array);
+            Utility.ArrayLength(array);
+            Utility.DisplayArray(array);
 
+            Console.WriteLine("\nInserting last three elements: \n");
             array[length] = 10;
             length++;
             array[length] = 100;
             length++;
             array[length] = 101;
-            length++;
 
-            ArrayLength(array);
-            DisplayArray(array);
-        }
-
-
-        private static void DisplayArray(int[] array)
-        {
-            int i = 0; 
-            Console.WriteLine("\nArray Elements: ");
-            foreach (int element in array)
-            {
-                Console.WriteLine("Index " + i + " contains " + element);
-                i++;
-            }
-        }
-
-        private static int ArrayLength(int[] array)
-        {
-            Console.WriteLine("\nArray Length : " + array.Length);
-            return array.Length;
+            Utility.ArrayLength(array);
+            Utility.DisplayArray(array);
         }
     }
 }
