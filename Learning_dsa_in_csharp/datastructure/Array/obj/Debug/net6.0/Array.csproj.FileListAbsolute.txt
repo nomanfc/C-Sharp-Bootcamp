@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\bin\Debug\net6.0\Array.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\bin\Debug\net6.0\Array.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\bin\Debug\net6.0\Array.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\bin\Debug\net6.0\Array.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\bin\Debug\net6.0\Array.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\Array.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\Array.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\Array.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\Array.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\refint\Array.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\Array.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\Array.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\Array\obj\Debug\net6.0\ref\Array.dll
