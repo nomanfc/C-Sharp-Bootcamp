@@ -8,5 +8,9 @@ namespace Array
 {
     internal class InsertAtArrayStart
     {
+        public static void Main()
+        {
+
+        }
     }
 }
