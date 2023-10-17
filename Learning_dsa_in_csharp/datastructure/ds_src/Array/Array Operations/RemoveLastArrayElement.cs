@@ -9,7 +9,7 @@ namespace Array_Operations
 {
     internal class RemoveLastArrayElement
     {
-        public static int RemoveFromEnd(int[] array, int length)
+        public static int Main(int[] array, int length)
         {
             
             length--;
