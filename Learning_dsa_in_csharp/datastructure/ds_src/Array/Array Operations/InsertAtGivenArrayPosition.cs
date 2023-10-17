@@ -10,14 +10,14 @@ namespace Array
     {
         public static int Main(int[] array, int length, int position, int value)
         {
-            if (length > array.Length || position >= array.Length) return 404;
+            if (length > array.Length || position-1 >= length) return length;
 
-            for(int i = length; i>=position; i--)
+            for(int i = length; i>=position-1; i--)
             {
                 array[i+1] = array[i];
             }
 
-            array[position] = value;
+            array[position-1] = value;
             length++;
 
             Utility.DisplayArray(array, length);
