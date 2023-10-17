@@ -29,10 +29,7 @@ namespace Array_Problem_Solving
 
             Array.Copy(resArray, nums, nums.Length);
 
-            foreach (int i in nums)
-            {
-                Console.Write(i + " ");
-            }
+            Utility.Display(nums);
         }
     }
 }
