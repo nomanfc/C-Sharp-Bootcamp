@@ -10,7 +10,7 @@ namespace Array
     {
         public static int Main(int[] array, int length, int value)
         {
-            Console.WriteLine("\nInserting first five elements: \n");
+            Console.WriteLine("\nInserting first five elements: ");
 
             for (int i = 0; i < 5; i++)
             {
@@ -19,9 +19,8 @@ namespace Array
             }
 
             array[length] = value;
-            
-            Utility.ArrayLength(array);
-            Utility.DisplayArray(array);
+
+            Utility.DisplayArray(array, length);
 
             return length;
         }
