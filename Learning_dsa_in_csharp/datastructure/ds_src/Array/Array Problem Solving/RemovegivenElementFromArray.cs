@@ -21,7 +21,10 @@ namespace Array_Problem_Solving
                 }
             }
 
-            Console.WriteLine(count);
+            for (int i = 0; i < count; i++)
+            {
+                Console.Write(array[i] + " ");
+            }
         }
     }
 }
