@@ -20,7 +20,7 @@ namespace Array
             array[position] = value;
             length++;
 
-            Utility.DisplayArray(array);
+            Utility.DisplayArray(array, length);
 
             return length;
         }
