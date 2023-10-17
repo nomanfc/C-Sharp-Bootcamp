@@ -14,7 +14,7 @@ namespace Array
             Console.WriteLine("\nArray Elements: ");
             for(i = 0; i < length; i++)
             {
-                Console.WriteLine("Index " + i + " contains " + array[i]);
+                Console.WriteLine($"Position {i+1} : index {i} contains {array[i]}");
             }
         }
 
