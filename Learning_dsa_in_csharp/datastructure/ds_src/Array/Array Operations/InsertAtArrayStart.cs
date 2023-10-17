@@ -18,7 +18,7 @@ namespace Array
             array[0] = value;
             length++;
 
-            Utility.DisplayArray(array);
+            Utility.DisplayArray(array, length);
 
             return length;
         }
