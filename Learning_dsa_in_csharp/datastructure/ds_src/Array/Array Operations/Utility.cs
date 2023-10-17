@@ -8,14 +8,13 @@ namespace Array
 {
     public class Utility
     {
-        public static void DisplayArray(int[] array)
+        public static void DisplayArray(int[] array, int length)
         {
             int i = 0;
-            Console.WriteLine("Array Elements: \n");
-            foreach (int element in array)
+            Console.WriteLine("\nArray Elements: ");
+            for(i = 0; i < length; i++)
             {
-                Console.WriteLine("Index " + i + " contains " + element);
-                i++;
+                Console.WriteLine("Index " + i + " contains " + array[i]);
             }
         }
 
