@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\bin\Debug\net6.0\OOP_concepts_with_chsarp.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\bin\Debug\net6.0\OOP_concepts_with_chsarp.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\bin\Debug\net6.0\OOP_concepts_with_chsarp.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\bin\Debug\net6.0\OOP_concepts_with_chsarp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\bin\Debug\net6.0\OOP_concepts_with_chsarp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\OOP_concepts_with_chsarp.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\OOP_concepts_with_chsarp.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\OOP_concepts_with_chsarp.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\OOP_concepts_with_chsarp.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\OOP_concepts_with_chsarp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\refint\OOP_concepts_with_chsarp.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\OOP_concepts_with_chsarp.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\OOP_concepts_with_chsarp.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_csharp_lang\BasicOOPinCS\src\OOP_concepts_with_chsarp\obj\Debug\net6.0\ref\OOP_concepts_with_chsarp.dll
