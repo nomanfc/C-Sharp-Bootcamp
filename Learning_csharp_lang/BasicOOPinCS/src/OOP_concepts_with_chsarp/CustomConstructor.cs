@@ -16,6 +16,16 @@ namespace OOP_concepts_with_chsarp
             Height = height;
             Width = width;  
         }
+
+        public int CalculateArea()
+        {
+            return Height * Width;
+        }
+
+        public int CalculateCircumference()
+        {
+            return 2 * Height + 2 * Width;
+        }
     }
 
 }
