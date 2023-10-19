@@ -27,6 +27,11 @@ namespace OOP_concepts_with_chsarp
             _date = new DateTime(_date.Year, month, day);   
         }
 
+        public void OverwriteReSchedule(int monthsToAdd, int daysToAdd)
+        {
+            _date = new DateTime(_date.Year, _date.Month + monthsToAdd, _date.Day + daysToAdd);
+        }
+
         public void Display()
         {
             Console.WriteLine($"Patient Name: {_name}\nVisiting Date: {_date}");
