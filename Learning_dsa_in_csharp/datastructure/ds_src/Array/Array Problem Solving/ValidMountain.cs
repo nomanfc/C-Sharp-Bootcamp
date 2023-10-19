@@ -19,14 +19,14 @@ namespace Array_Problem_Solving
                 climb++;
             }
 
-            if(climb == 0 || climb == array.Length) return false;
+            if(climb == 0 || climb == array.Length-1) return false;
 
             while(climb+1 < array.Length && array[climb] > array[climb + 1])
             {
                 climb++;
             }
 
-            return climb == array.Length;
+            return climb == array.Length-1;
         }
     }
 }

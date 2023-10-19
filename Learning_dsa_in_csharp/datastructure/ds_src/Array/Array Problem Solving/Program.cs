@@ -39,15 +39,17 @@ Console.Write("Output: ");
 Console.WriteLine(SearchingDoubleNumber.Main(arrayFiveOne));
 
 Console.WriteLine("\n\n06. Valid Mountain Array");
+
 int[] arraySix = new int[6] { 0, 2, 9, 5, 3, 11 };
 Console.WriteLine($"Given Array: [0,2,9,5,3,11].");
 Console.Write("Output: ");
-Console.WriteLine(ValidMountain.Main(arrayFive));
+Console.WriteLine(ValidMountain.Main(arraySix));
 Console.WriteLine();
+
 int[] arraySixOne = new int[10] { 0,1,2,4,10,9,6,3,1,0 };
 Console.WriteLine($"Given Array: [0,1,2,4,10,9,6,3,1,0].");
 Console.Write("Output: ");
-Console.WriteLine(SearchingDoubleNumber.Main(arraySixOne));
+Console.WriteLine(ValidMountain.Main(arraySixOne));
 
 
 Console.ReadKey();
