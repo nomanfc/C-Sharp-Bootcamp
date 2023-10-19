@@ -51,5 +51,18 @@ Console.WriteLine($"Given Array: [0,1,2,4,10,9,6,3,1,0].");
 Console.Write("Output: ");
 Console.WriteLine(ValidMountain.Main(arraySixOne));
 
+Console.WriteLine("07. Even index squared Array");
+int[] arraySeven = new int[10] { 0, 1, 2, 4, 10, 9, 6, 3, 1, 0 };
+EvenSquaredArray.Main(arraySeven);
+
+Console.WriteLine("\n\n08. Relace Array Items with Right max element");
+int[] arrayEight = new int[10] { 0, 1, 2, 4, 10, 9, 6, 3, 1, 5 };
+Console.WriteLine("Array: [ 0, 1, 2, 4, 10, 9, 6, 3, 1, 0 ]");
+ReplaceElementWithRightMax.Main(arrayEight);
+
+Console.WriteLine("\n\n09. Move Zero To End of the Array");
+int[] arrayNine = new int[10] { 0, 1, 2, 0, 0, 0, 6, 3, 1, 5 };
+Console.WriteLine("Array: [ 0, 1, 2, 0, 0, 0, 6, 3, 1, 5]");
+MoveZerosToEnd.Main(arrayNine);
 
 Console.ReadKey();
