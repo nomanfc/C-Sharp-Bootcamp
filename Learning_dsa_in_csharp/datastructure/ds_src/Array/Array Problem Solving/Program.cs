@@ -65,4 +65,9 @@ int[] arrayNine = new int[10] { 0, 1, 2, 0, 0, 0, 6, 3, 1, 5 };
 Console.WriteLine("Array: [ 0, 1, 2, 0, 0, 0, 6, 3, 1, 5]");
 MoveZerosToEnd.Main(arrayNine);
 
+Console.WriteLine("\n\n10. Height Checking");
+int[] heights = new int[10] { 1, 1, 2, 2, 3, 1, 6, 3, 1, 5 };
+Console.WriteLine("Array: [1, 1, 2, 2, 3, 1, 6, 3, 1, 5 ]");
+HeightChecking.Main(heights);
+
 Console.ReadKey();
