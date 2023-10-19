@@ -24,8 +24,13 @@ namespace OOP_concepts_with_chsarp
         {
             _patientName = patientNtname;
             _date = DateTime.Now.AddDays(daysFromNow);
+
+
+            Printer.Print(this); //passing instance of current class
         }
 
+        public DateTime GetDate() => _date;
+        public string GetName() => _patientName;
 
         public void Display()
         {
