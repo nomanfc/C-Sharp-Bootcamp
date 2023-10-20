@@ -55,5 +55,14 @@ var obj = new ExpressionBodiedMethod(5, 10);
 Console.WriteLine($"ObjectOne: Height: {obj.Height} Width: {obj.Width}");
 Console.WriteLine($"ObjectOne: Area is {obj.CalculateArea()} and Circumference is {obj.CalculateCircumference()}");
 
+//:::::::::::::::::::::::::::Constructor Validation:::::::::::::::::::::::::::::::::::::::::::::::::
+Console.WriteLine("\n02. Use of custom constructor: ");
+Console.WriteLine("Two objects have been created from Class Rectangle");
+var objOne = new AddingValidationInConstructorParameter(5, 10);
+Console.WriteLine($"ObjectOne: Area is {objOne.CalculateArea()} and Circumference is {objOne.CalculateCircumference()}");
+
+var objTwo = new AddingValidationInConstructorParameter(15, 100);
+Console.WriteLine($"ObjectTwo: Area is {objTwo.CalculateArea()} and Circumference is {objTwo.CalculateCircumference()}");
+
 
 Console.ReadKey();
