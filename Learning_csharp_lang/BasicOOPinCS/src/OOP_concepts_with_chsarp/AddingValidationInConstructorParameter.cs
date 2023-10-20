@@ -8,7 +8,9 @@ namespace OOP_concepts_with_chsarp
 {
     internal class AddingValidationInConstructorParameter
     {
-        public readonly int Height;
+        const double Pi = 3.1416; //const must have assiged some value or it will show error. Dynamic value cannot be added in const
+
+        public readonly int Height; // readonly used in constructor and asign of value not necessary
         public readonly int Width;
 
         public AddingValidationInConstructorParameter(int height, int width)
