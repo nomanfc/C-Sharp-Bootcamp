@@ -8,13 +8,13 @@ namespace OOP_concepts_with_chsarp
 {
     internal class AddingValidationInConstructorParameter
     {
-        private int _height;
-        private int _width;
+        public readonly int Height;
+        public readonly int Width;
 
         public AddingValidationInConstructorParameter(int height, int width)
         {
-            _height = GetLengthOfDefault(height, nameof(_height));
-            _width = GetLengthOfDefault(width, nameof(_width));
+            Height = GetLengthOfDefault(height, nameof(Height));
+            Width = GetLengthOfDefault(width, nameof(Width));
         }
 
         private int GetLengthOfDefault(int length, string name)
@@ -32,12 +32,12 @@ namespace OOP_concepts_with_chsarp
 
         public int CalculateArea()
         {
-            return _height * _width;
+            return Height * Width;
         }
 
         public int CalculateCircumference()
         {
-            return 2 * _height + 2 * _width;
+            return 2 * Height + 2 * Width;
         }
 
     }
