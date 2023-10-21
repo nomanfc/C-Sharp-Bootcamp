@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,8 +16,8 @@ namespace Tree
             Root = null;
         }
 
-        private void Insert(int data)
-        {
+        public void Insert(int data)
+        {   
             Root = InsertRec(Root, data);
         }
 
@@ -28,13 +29,13 @@ namespace Tree
                 return root;
             }
 
-            if(root.Data > data)
+            if( data < root.Data)
             {
-                root.Left = new Node(data);
+                root.Left = InsertRec(root.Left, data);
             }
-            else if(root.Data < data)
+            else if(data > root.Data)
             {
-                root.Right = new Node(data);
+                root.Right = InsertRec(root.Right, data);
             }
 
             return root;
