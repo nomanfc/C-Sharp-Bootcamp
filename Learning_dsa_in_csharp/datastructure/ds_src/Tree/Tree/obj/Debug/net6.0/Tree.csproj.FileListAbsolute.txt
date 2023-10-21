@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\bin\Debug\net6.0\Tree.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\bin\Debug\net6.0\Tree.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\bin\Debug\net6.0\Tree.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\bin\Debug\net6.0\Tree.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\bin\Debug\net6.0\Tree.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\Tree.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\Tree.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\Tree.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\Tree.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\Tree.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\refint\Tree.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\Tree.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\Tree.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\Tree\Tree\obj\Debug\net6.0\ref\Tree.dll
