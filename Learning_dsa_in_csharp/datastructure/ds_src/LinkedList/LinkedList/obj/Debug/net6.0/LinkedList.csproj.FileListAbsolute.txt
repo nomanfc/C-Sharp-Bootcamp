@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\bin\Debug\net6.0\LinkedList.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\refint\LinkedList.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\LinkedList.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\LinkedList\LinkedList\obj\Debug\net6.0\ref\LinkedList.dll
