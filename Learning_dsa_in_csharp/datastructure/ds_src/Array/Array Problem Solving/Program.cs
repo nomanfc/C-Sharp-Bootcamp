@@ -80,6 +80,10 @@ int[] arr = new int[5] { 1,2,3,5,6};
 Console.WriteLine("Array: [1,2,3,5,6]");
 FindPivotIndex.Main(arr);
 
+Console.WriteLine("\n\n13. Largest Number At Least Twice of Others");
+int[] fountLargest = new int[5] { 1, 2, 3, 5, 12 };
+Console.WriteLine("Array: [1, 2, 3, 5, 12]");
+LargestNumberTwiceOfOthers.Main(fountLargest);
 
 
 Console.ReadKey();
