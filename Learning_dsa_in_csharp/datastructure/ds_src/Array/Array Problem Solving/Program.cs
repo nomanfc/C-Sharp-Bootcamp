@@ -70,4 +70,16 @@ int[] heights = new int[10] { 1, 1, 2, 2, 3, 1, 6, 3, 1, 5 };
 Console.WriteLine("Array: [1, 1, 2, 2, 3, 1, 6, 3, 1, 5 ]");
 HeightChecking.Main(heights);
 
+Console.WriteLine("\n\n11. Find first and Last Index of a targt element in an array");
+int[] nums = new int[10] { 1, 1, 2, 2, 3, 1, 6, 3, 1, 5 };
+Console.WriteLine("Array: [1, 1, 2, 2, 3, 1, 6, 3, 1, 5 ] and Target: 3");
+FindFirstAndLastIndexOfOccurances.Main(nums, 3);
+
+Console.WriteLine("\n\n12. Pivot Index Left and Right Sum are equal");
+int[] arr = new int[5] { 1,2,3,5,6};
+Console.WriteLine("Array: [1,2,3,5,6]");
+FindPivotIndex.Main(arr);
+
+
+
 Console.ReadKey();
