@@ -85,5 +85,14 @@ int[] fountLargest = new int[5] { 1, 2, 3, 5, 12 };
 Console.WriteLine("Array: [1, 2, 3, 5, 12]");
 LargestNumberTwiceOfOthers.Main(fountLargest);
 
+Console.WriteLine("\n\n14. Plus One at the last digit of Array");
+int[] plusOne = new int[5] { 9,9,9,9,9 };
+Console.WriteLine("Array: [9,9,9,9,9]");
+int[] newArray = PlusOneLastDigit.Main(plusOne);
+
+foreach(int i in newArray)
+{
+    Console.Write(i + " ");
+}
 
 Console.ReadKey();

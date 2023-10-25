@@ -16,4 +16,28 @@ tree.Insert(80);
 Console.WriteLine("Binary Tree Inorder Traversal:");
 InOrderTraversal.Inorder(tree.Root);
 
+Console.WriteLine("\n\n::::::::::::::::::::- Basic Binary Tree -::::::::::::::::::::");
+
+BasicBinaryTreeNode a = new BasicBinaryTreeNode('A');
+BasicBinaryTreeNode b = new BasicBinaryTreeNode('B');
+BasicBinaryTreeNode c = new BasicBinaryTreeNode('C');
+BasicBinaryTreeNode d = new BasicBinaryTreeNode('D');
+BasicBinaryTreeNode e = new BasicBinaryTreeNode('E');
+BasicBinaryTreeNode f = new BasicBinaryTreeNode('F');
+
+a.Left = b;
+a.Right = c;
+b.Left = d;
+b.Right = e;
+c.Right = f;
+
+//Visual Representation
+//
+//         A
+//       /   \
+//      B      C
+//    /   \      \
+//  D       E      F
+
+
 Console.ReadKey();
