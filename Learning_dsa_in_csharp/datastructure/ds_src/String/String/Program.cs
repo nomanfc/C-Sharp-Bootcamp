@@ -1,6 +1,8 @@
-﻿Console.WriteLine(":::::::::::::::::- STRING -::::::::::::::::::::::");
+﻿using String;
 
-Console.WriteLine("\n 01. String Operations");
+Console.WriteLine(":::::::::::::::::- STRING -::::::::::::::::::::::");
 
+Console.WriteLine("\n01. String Operations");
+StringOperations.Main();
 
 Console.ReadKey();

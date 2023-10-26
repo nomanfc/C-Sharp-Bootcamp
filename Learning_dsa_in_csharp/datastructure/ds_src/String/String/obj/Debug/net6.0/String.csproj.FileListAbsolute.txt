@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\bin\Debug\net6.0\String.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\bin\Debug\net6.0\String.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\bin\Debug\net6.0\String.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\bin\Debug\net6.0\String.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\bin\Debug\net6.0\String.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\String.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\String.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\String.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\String.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\String.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\refint\String.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\String.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\String.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Learning_dsa_in_csharp\datastructure\ds_src\String\String\obj\Debug\net6.0\ref\String.dll
