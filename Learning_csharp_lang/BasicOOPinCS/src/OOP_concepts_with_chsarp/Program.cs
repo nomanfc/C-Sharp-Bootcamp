@@ -56,7 +56,7 @@ Console.WriteLine($"ObjectOne: Height: {obj.Height} Width: {obj.Width}");
 Console.WriteLine($"ObjectOne: Area is {obj.CalculateArea()} and Circumference is {obj.CalculateCircumference()}");
 
 //:::::::::::::::::::::::::::Constructor Validation:::::::::::::::::::::::::::::::::::::::::::::::::
-Console.WriteLine("\n02. Use of custom constructor: ");
+Console.WriteLine("\n06. Use of custom constructor: ");
 Console.WriteLine("Two objects have been created from Class Rectangle");
 var objOne = new AddingValidationInConstructorParameter(5, 10);
 Console.WriteLine($"ObjectOne: Area is {objOne.CalculateArea()} and Circumference is {objOne.CalculateCircumference()}");
@@ -64,5 +64,19 @@ Console.WriteLine($"ObjectOne: Area is {objOne.CalculateArea()} and Circumferenc
 var objTwo = new AddingValidationInConstructorParameter(15, 100);
 Console.WriteLine($"ObjectTwo: Area is {objTwo.CalculateArea()} and Circumference is {objTwo.CalculateCircumference()}");
 
+//:::::::::::::::::::::::::::- Get And Set Method -:::::::::::::::::::::::::::::::::::::::::::::::::
+Console.WriteLine("\n07. Get And Set Mehod: ");
+GetSetMethod objSeven = new GetSetMethod(5, 10);
+Console.WriteLine($"Height Now: {objSeven.GetHeight()}");
+Console.WriteLine($"Width Now: {objSeven.GetWidth()}");
+Console.WriteLine($"\nArea Now: {objSeven.CalculateArea()}");
+
+Console.WriteLine("\nSetting Height and Width to 10 20 : ");
+objSeven.SetHeight(10);
+objSeven.SetWidth(20);
+Console.WriteLine($"Getting new height: {objSeven.GetHeight()}");
+Console.WriteLine($"Getting new width: {objSeven.GetWidth()}");
+
+Console.WriteLine($"\nNew Area Now: {objSeven.CalculateArea()}");
 
 Console.ReadKey();
