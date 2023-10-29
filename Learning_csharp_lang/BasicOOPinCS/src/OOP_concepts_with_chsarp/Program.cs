@@ -109,4 +109,23 @@ Console.WriteLine($"Getting new width: {objNine.Width}");
 
 Console.WriteLine($"\nNew Area Now: {objNine.CalculateArea()}");
 
+
+/*::::::::::::::::::::::- Difference Between Fields and Properties -::::::::::::::::::::::::::::::::::::::::::::::
+    Fields:
+ *  # Like a variable [ _width, _height ]
+ *  # Single Access Modifier [ public int _width, private int _height]
+ *  # No separate Getter and Setter 
+ *  # Can not be overridden in derived class
+ *  # Should always be private
+ *  
+ *  Properties:
+ *  # Like a Methods [ public int Height {} ]
+ *  # Separate Access Modifier [ public int Width {get; private set;}]
+ *  # getter or setter may be removed [ public int Width {get;} ]
+ *  # Can be overridden in derived class
+ *  # Can safely be public
+ */
+
+
+
 Console.ReadKey();
