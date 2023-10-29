@@ -65,7 +65,7 @@ var objTwo = new AddingValidationInConstructorParameter(15, 100);
 Console.WriteLine($"ObjectTwo: Area is {objTwo.CalculateArea()} and Circumference is {objTwo.CalculateCircumference()}");
 
 //:::::::::::::::::::::::::::- Get And Set Method -:::::::::::::::::::::::::::::::::::::::::::::::::
-Console.WriteLine("\n07. Get And Set Mehod: ");
+Console.WriteLine("\n07. Get And Set Mehod: \n");
 GetSetMethod objSeven = new GetSetMethod(5, 10);
 Console.WriteLine($"Height Now: {objSeven.GetHeight()}");
 Console.WriteLine($"Width Now: {objSeven.GetWidth()}");
@@ -78,5 +78,35 @@ Console.WriteLine($"Getting new height: {objSeven.GetHeight()}");
 Console.WriteLine($"Getting new width: {objSeven.GetWidth()}");
 
 Console.WriteLine($"\nNew Area Now: {objSeven.CalculateArea()}");
+
+//:::::::::::::::::::::::::::- Properties -:::::::::::::::::::::::::::::::::::::::::::::::::
+Console.WriteLine("\n08. Properties: \n");
+Properties objEight = new Properties(5, 10);
+Console.WriteLine($"Height Now: {objEight.Height}");
+Console.WriteLine($"Width Now: {objEight.GetWidth()}");
+Console.WriteLine($"\nArea Now: {objEight.CalculateArea()}");
+
+Console.WriteLine("\nSetting Height and Width to 10 20 : ");
+objEight.Height = 10;
+objEight.SetWidth(20); 
+Console.WriteLine($"Getting new height: {objEight.Height}");
+Console.WriteLine($"Getting new width: {objEight.GetWidth()}");
+
+Console.WriteLine($"\nNew Area Now: {objEight.CalculateArea()}");
+
+//:::::::::::::::::::::::::::- Shorter version of Properties -:::::::::::::::::::::::::::::::::::::::::::::::::
+Console.WriteLine("\n09. Shorter Way Properties: \n");
+ModernWayOfGetSet objNine = new ModernWayOfGetSet(5, 10);
+Console.WriteLine($"Height Now: {objNine.Height}");
+Console.WriteLine($"Width Now: {objNine.Width}");
+Console.WriteLine($"\nArea Now: {objNine.CalculateArea()}");
+
+Console.WriteLine("\nSetting Height and Width to 10 20 : ");
+objNine.Height = 100;
+objNine.Width = 30;
+Console.WriteLine($"Getting new height: {objNine.Height}");
+Console.WriteLine($"Getting new width: {objNine.Width}");
+
+Console.WriteLine($"\nNew Area Now: {objNine.CalculateArea()}");
 
 Console.ReadKey();
