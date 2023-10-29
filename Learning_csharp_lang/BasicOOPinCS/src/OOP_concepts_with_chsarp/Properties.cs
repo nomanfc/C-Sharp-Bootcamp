@@ -20,6 +20,11 @@ namespace OOP_concepts_with_chsarp
         
         public int Height
         {
+            get
+            {
+                return _height;
+            } 
+
             set
             {
                 if(value > 0)
@@ -27,11 +32,6 @@ namespace OOP_concepts_with_chsarp
                     _height = value;
                 }
 
-            }
-
-            get
-            {
-                return _height;
             }
         }
 
