@@ -126,6 +126,48 @@ Console.WriteLine($"\nNew Area Now: {objNine.CalculateArea()}");
  *  # Can safely be public
  */
 
+//:::::::::::::::::::::::::::- Object Initializers -:::::::::::::::::::::::::::::::::::::::::::::::::
+Console.WriteLine("\n10. Object Initializers: \n");
+
+Person objTen = new Person { Name = "Noman", YearOfBirth = 1997}; //_here we are using Object Initializers_//
+var objTenTwo = new Person { Name = "Noman Fcb" }; //_here we are using Object Initializers_//
+
+Console.WriteLine("Initializing only one Parameter Name. " +
+    "\nYear of birth initiazed a random default value: \n");
+Console.WriteLine($"Name: {objTenTwo.Name}");
+Console.WriteLine($"Year of Birth: {objTenTwo.YearOfBirth}");
+
+Console.WriteLine("\nBelow we are initialized two parameters: \n");
+Console.WriteLine($"Name: {objTen.Name}");
+Console.WriteLine($"Year of Birth: {objTen.YearOfBirth}");
+
+Console.WriteLine("\nUpdating name and year of birth..... \n");
+objTen.Name = "Abdullah Al Noman";
+objTen.YearOfBirth = 1997;
+
+Console.WriteLine($"Name Now: {objTen.Name}");
+Console.WriteLine($"Year of Birth Now: {objTen.YearOfBirth}");
+
+//:::::::::::::::::::::::::::- init in Object Initializers -:::::::::::::::::::::::::::::::::::::::::::::::::
+Console.WriteLine("\n11. Init in Object Initializers: \n");
+
+Student objEl = new Student("Abdullah Al Noman") { Name = "Noman" }; //_here we are using Object Initializers_//
+Console.WriteLine($"Name: {objEl.Name} \n");
+//objEl.Name = "Noman"; //we can't assign new value. init allows us to set name only during object initialization... 
+Console.WriteLine("Here set name is private but only settable during object initializing. \nWe can't set new name after initialization");
+
+
+//::::::::::::::::::::::::::- Properties of Static -:::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+/*
+ *  # Static methods belong to a class as a whole, not to specific instance. [ ClassName.StaticMethod() ]
+ *  # Static method can not use the instance data (values of fields or returned by properties)
+ *  # Static class can not be instantiated, it only works as a container for methods. [ ClassName obj = new ClassName() will not work ]
+ *  # Static c;asses can only contain static methods.
+ *  # Non-Static classes can contain static methods.
+ *  # If a private method does not use instance data, make it static.
+ *  # const field will work in static class. They are implicitly static
+ *  
+*/
 
 
 Console.ReadKey();
