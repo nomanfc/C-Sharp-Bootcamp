@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\bin\Debug\net6.0\StringSolvingTechnique.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\bin\Debug\net6.0\StringSolvingTechnique.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\bin\Debug\net6.0\StringSolvingTechnique.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\bin\Debug\net6.0\StringSolvingTechnique.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\bin\Debug\net6.0\StringSolvingTechnique.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\StringSolvingTechnique.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\StringSolvingTechnique.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\StringSolvingTechnique.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\StringSolvingTechnique.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\StringSolvingTechnique.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\refint\StringSolvingTechnique.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\StringSolvingTechnique.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\StringSolvingTechnique.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\StringSolvingTechnique\obj\Debug\net6.0\ref\StringSolvingTechnique.dll
