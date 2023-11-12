@@ -16,5 +16,10 @@ int number = -1234567890;
 Console.WriteLine("Input: " + number);
 Console.WriteLine("Output: " + ReverseInteger.Main(number));
 
+Console.WriteLine("\n\n04. LCS : Longest Common Subsequence:");
+string inputOne = "president";
+string inputTwo = "providence";
+Console.WriteLine("Inputs: " + inputOne + " & " + inputTwo);
+Console.WriteLine("Pallingdrom: " + LCS.Main(inputOne, inputTwo));
 
 Console.ReadKey();
