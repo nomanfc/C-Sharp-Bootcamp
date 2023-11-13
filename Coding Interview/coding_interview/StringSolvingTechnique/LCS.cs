@@ -60,7 +60,7 @@ namespace StringSolvingTechnique
                 Console.Write(c + " ");
             }
 
-            Console.Write("\nLentgh: ");
+            Console.Write("\nLength: ");
             return lcs[m,n];
         }
     }
