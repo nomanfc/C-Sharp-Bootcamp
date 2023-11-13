@@ -31,6 +31,36 @@ namespace StringSolvingTechnique
                 }
             }
 
+            int index = lcs[m, n];
+            char[] lcs_letters = new char[index + 1];
+            int k = m, l = n;
+
+            while(k > 0 && l > 0)
+            {
+                if (strOne[k - 1] == strTwo[l - 1])
+                {
+                    lcs_letters[index - 1] = strOne[k - 1];
+                    k--;
+                    l--;
+                    index--;
+                }
+                else if (lcs[k - 1, l] > lcs[k, l - 1])
+                {
+                    k--;
+                }
+                else
+                {
+                    l--;
+                }
+            }
+
+            Console.Write("Common Subsequences: ");
+            foreach (char c in lcs_letters)
+            {
+                Console.Write(c + " ");
+            }
+
+            Console.Write("\nLentgh: ");
             return lcs[m,n];
         }
     }
