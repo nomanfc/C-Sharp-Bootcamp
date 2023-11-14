@@ -1,0 +1,14 @@
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\bin\Debug\net6.0\DynamicProblemSolutions.exe
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\bin\Debug\net6.0\DynamicProblemSolutions.deps.json
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\bin\Debug\net6.0\DynamicProblemSolutions.runtimeconfig.json
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\bin\Debug\net6.0\DynamicProblemSolutions.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\bin\Debug\net6.0\DynamicProblemSolutions.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\DynamicProblemSolutions.GeneratedMSBuildEditorConfig.editorconfig
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\DynamicProblemSolutions.AssemblyInfoInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\DynamicProblemSolutions.AssemblyInfo.cs
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\DynamicProblemSolutions.csproj.CoreCompileInputs.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\DynamicProblemSolutions.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\refint\DynamicProblemSolutions.dll
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\DynamicProblemSolutions.pdb
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\DynamicProblemSolutions.genruntimeconfig.cache
+F:\MERN\C#\C-Sharp-Bootcamp\Coding Interview\coding_interview\DynamicProblemSolutions\obj\Debug\net6.0\ref\DynamicProblemSolutions.dll
