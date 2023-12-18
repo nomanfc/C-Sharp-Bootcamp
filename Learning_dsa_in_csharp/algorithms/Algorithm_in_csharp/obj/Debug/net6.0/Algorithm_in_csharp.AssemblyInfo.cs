@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Algorithm_in_csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c4639649c6c4e40d679f872be9e8eb4151f67a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9ac7e63075ca940ffb8abb86da651ce0ff1a60e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Algorithm_in_csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Algorithm_in_csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

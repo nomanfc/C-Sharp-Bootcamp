@@ -1,4 +1,5 @@
-﻿using Boyer_Moore_Voting_algo;
+﻿using Algorithm_in_csharp;
+using Boyer_Moore_Voting_algo;
 
 Console.WriteLine("::::::::::::::::::::::::!! Algorithms !!::::::::::::::::::::::");
 
@@ -15,5 +16,7 @@ else
     Console.WriteLine("No Winner Found!!");
 }
 
-
+Console.WriteLine("\n\n2. Union Find Algorithm Algorithm\n");
+UnionFindAlgorithm UF = new(16);
+UF.PrintValue();
 Console.ReadLine();
