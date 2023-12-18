@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "l5+ihETwnezNuo45BOc6cTrWTmb+F7TqVdpTCZJfvkWrk3urI7N0XnUr+L0c1n7TE9+rsJVmOrIk9BiO3+6b6w==",
+  "dgSpecHash": "b9cqgmKap/BC/bdk5gdu7v5PvGiratkWwMPrNnCV8KlkVpD6pZihzgKpRUbTCbx1elpqaH8evFTbCKHCbTkvAA==",
   "success": true,
-  "projectFilePath": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\algorithms\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\noman\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\noman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\noman\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

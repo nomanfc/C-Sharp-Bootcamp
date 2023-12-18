@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj": {}
+    "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\algorithms\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj": {}
   },
   "projects": {
-    "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj": {
+    "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\algorithms\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj",
+        "projectUniqueName": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\algorithms\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj",
         "projectName": "Algorithm_in_csharp",
-        "projectPath": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj",
+        "projectPath": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\algorithms\\Algorithm_in_csharp\\Algorithm_in_csharp.csproj",
         "packagesPath": "C:\\Users\\noman\\.nuget\\packages\\",
-        "outputPath": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\Algorithm_in_csharp\\Algorithm_in_csharp\\obj\\",
+        "outputPath": "F:\\MERN\\C#\\C-Sharp-Bootcamp\\Learning_dsa_in_csharp\\algorithms\\Algorithm_in_csharp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\noman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,12 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
