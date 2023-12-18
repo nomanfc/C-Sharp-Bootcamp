@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace Algorithm_in_csharp
 {
-    internal class UnionFindAlgorithm
+    public class UnionFindAlgorithm
     {
-        public static void main()
+        public int n;
+        public UnionFindAlgorithm(int N)
         {
-            
+            n = N;
         }
+
+        public void PrintValue()
+        {
+            Console.WriteLine(n);
+        }
+
     }
 }
