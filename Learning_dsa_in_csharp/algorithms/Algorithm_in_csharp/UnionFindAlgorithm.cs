@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Algorithm_in_csharp
 {
-    public class QuickFindAlgorithm
+    internal class UnionFindAlgorithm
     {
         int[] id;
 
-        //this constructor sets objects to ifself O(N)
-        public QuickFindAlgorithm(int N)
+        //Constructor will assign objects to itself. O(N)
+        public UnionFindAlgorithm (int N)
         {
             id = new int[N];
 
@@ -21,33 +21,30 @@ namespace Algorithm_in_csharp
             }
         }
 
-        //checks if p and q are connected components O(1)
-        public bool Connected (int p, int q)
+        //Root method will chase the parent pointer until it reach root  O(N)
+        private int Root (int root)
         {
-            if (id[p] == id[q])
+            while (id[root] != root)
             {
-                return true;
+                root = id[root];
             }
-            else 
-            { 
-                return false; 
-            }
+
+            return root;
         }
 
-        //change all entries with id[p] to id[q] O(2N + 2) or O(N)
-        public void Union(int p, int q)
+        //Connected method will check if p and q are connected, if p and q have same root they are connected  O(N)
+        public bool Connected (int p, int q)
         {
-            int pid = id[p];
-            int qid = id[q];
+            return Root(p) == Root(q);
+        }
 
-            for(int i = 0; i< id.Length; i++)
-            {
-                if (id[i] == pid)
-                {
-                    id[i] = qid;
-                }
-            }
+        //Union method will connect the Root of p to Root of q  O(N)
+        public void Union(int p , int q)
+        {
+            int i = Root(p);
+            int j = Root(q);
 
+            id[i] = j;
         }
 
 
@@ -60,6 +57,5 @@ namespace Algorithm_in_csharp
             }
             Console.Write("\n\n");
         }
-
     }
 }

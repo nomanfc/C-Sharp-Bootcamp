@@ -16,7 +16,7 @@ else
     Console.WriteLine("No Winner Found!!");
 }*/
 
-Console.WriteLine("\n2. Union Find Algorithm");
+/*Console.WriteLine("\n2. Quick Find Algorithm");
 
 Console.Write("\nEnter Number Of Objects: ");
 
@@ -45,6 +45,40 @@ while (N > 0)
     }
 
     QF.PrintValue();
+}
+
+Console.ReadLine();
+*/
+
+Console.WriteLine("\n3. Union Find Algorithm");
+
+Console.Write("\nEnter Number Of Objects: ");
+
+int N = Convert.ToInt32(Console.ReadLine());
+
+UnionFindAlgorithm UF = new(N);
+
+UF.PrintValue();
+
+while (N > 0)
+{
+    Console.Write("\nEnter P: ");
+    int p = Convert.ToInt32(Console.ReadLine());
+
+    Console.Write("Enter Q: ");
+    int q = Convert.ToInt32(Console.ReadLine());
+
+    if (!UF.Connected(p, q))
+    {
+        UF.Union(p, q);
+        Console.WriteLine($"\nConnecting {p} and {q}");
+    }
+    else
+    {
+        Console.WriteLine("\nAlready Connected");
+    }
+
+    UF.PrintValue();
 }
 
 Console.ReadLine();
