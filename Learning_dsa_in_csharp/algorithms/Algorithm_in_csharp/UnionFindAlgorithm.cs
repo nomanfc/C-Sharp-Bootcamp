@@ -29,6 +29,9 @@ namespace Algorithm_in_csharp
         {
             while (id[root] != root)
             {
+                //path compression improvement 2
+                id[root] = id[id[root]];
+
                 root = id[root];
             }
 
