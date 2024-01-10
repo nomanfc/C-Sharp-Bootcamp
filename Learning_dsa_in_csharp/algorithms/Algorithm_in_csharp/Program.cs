@@ -50,7 +50,7 @@ while (N > 0)
 Console.ReadLine();
 */
 
-Console.WriteLine("\n3. Union Find Algorithm");
+/*Console.WriteLine("\n3. Union Find Algorithm");
 
 Console.Write("\nEnter Number Of Objects: ");
 
@@ -80,5 +80,46 @@ while (N > 0)
 
     UF.PrintValue();
 }
+*/
+
+/*
+ * Console.WriteLine("\n4. Three Sum BruteForce N^3 Algorithm");
+ * int [] a = { 10, 3, -4, 1, -6, 9 };
+ * Console.WriteLine(ThreeSumBruteForce.ThreeSumBF(a));
+*/
+
+
+/*
+Console.WriteLine("\n5. Binary Search Algorithm");
+
+int[] a2 = { 10, 3, -4, 1, -6, 9 };
+
+Console.WriteLine(BinarySearchAlgorithm.BinarySearch(a2, 9));
+
+*/
+
+
+/*
+Console.WriteLine("\n6. Insertion Sort Algorithm");
+int[] a2 = { 10, 3, -4, 1, -6, 9 };
+
+InsertionSortAlgorithm.InsertionSort(a2);
+
+for(int i = 0; i < a2.Length; i++)
+{
+    Console.Write(a2[i] + " ");
+}
+*/
+
+
+
+
+Console.WriteLine("\n6. Three Sum (N^2 * log N) Algorithm");
+
+int[] array = { 10, 3, -4, 1, -6, 9 };
+
+Console.Write("BruteForce: " + ThreeSumBruteForce.ThreeSumBF(array));
+Console.Write("\nBinarySearch: " + ThreeSumAlgorithm_improvement.ThreeSumImprovement(array));
+
 
 Console.ReadLine();
